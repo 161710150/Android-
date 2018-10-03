@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserToolbar"
+    android:background="@drawable/bcksunnah">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="70dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15sp"
+                android:textColor="#f8d44c"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Panduan Sholat Istisqa"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sholat Istisqa adalah sholat yang sangat dianjurkan dalam rangka memohon kepada Allah ketika kita menghadapi kekeringan atau sumber mata air sudah lama mengering, Sholat Istisqa ini disunnah-kan berdasarkan sebab dzahir-nya. Dan sholat istisqa ini, tidak lagi dianjurkan apabila sebab-sebab-nya sudah tiada (hilang), seperti misal ; sudah mulai turun hujan atau sudah mengalirnya mata air dari sumber-nya."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Dalil Perintah Sholat Istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sholat istisqa ini hukumnya sangat dianjurkan (sunnah muakkadah) bagi mereka yang terkena musibah bencana kekeringan. Berdasarkan contoh dari Rasulullah SAW yang disebutkan dalam hadits Abdullah bin Zaid r.a., {” Baginda Rasulullah SAW pernah pergi (keluar) ke lapangan untuk melaksanakan sholat meminta hujan, beliau kemudian menghadap ke kiblat dan membalik-kan selendang-nya kemudian sholat dua rakaat (sholat istisqa) “} (Muttafaqun ‘Alaih)."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Panduan Sholat Istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sebelum kita melakukan sholat istisqa dianjurkan bagi seluruh jamaah untuk memperbanyak istighfar (memohon ampunan kepada Sang Pencipta dari segala dosa yang telah diperbuatnya), karena dengan beristighfar akan dimurahkan dan dilimpahkan rahmat-Nya sehingga Allah SWT pun meridhoi keinginan kita agar terbebas dari bencana kekeringan yang melanda."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sebagaimana Allah SWT telah berfirman :
+{” Wahai kaumku, mohon-lah ampun kepada Tuhan kalian, kemudian bertaubat-lah kalian kepada-Nya (Allah SWT), pasti Dia akan menurun-kan hujan yang sangat lebat atas kalian, dan Dia (Allah SWT) akan menambah-kan kekuatan pada kekuatan kalian. Dan janganlah kalian berpaling dengan berbuat dosa “} (QS. Hud : 52)."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tempat Melaksanakan Sholat Istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Disunnahkan bagi kita untuk melaksana-kan sholat istisqa ini di lapangan terbuka dan sebagian ulama juga memperboleh-kan untuk dilaksanakan di masjid asal-kan ada sebab-sebab tertentu atau dalam kondisi terpaksa."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Bacaan Niat Sholat Istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="صَلِّيْ سُنَّةَ اْلإِسْتِسْقَاءِ رَكْعَتَيْنِ (……..)  لِلَّهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ushalli Sunnatal Istisqa’i Rak’ataini (imaman/ ma’muman) Lillahi Ta’ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya: {” Saya Niat Salat Sunah Istisqa’ Dua Rakaat (jadi imam/ makmum) Karena Allah Ta’ala “}."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tatacara Sholat Istisqa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1. Sholat dilaksan-kan 2 rakaat, sebagaimana layaknya Sholat ‘Ied, Pada Rakaat pertama takbir sebanyak tujuh kali dan rakaat kedua takbir sebanyak lima kali. Dari Ibnu Abbas r.a. berkata: {” Laksanakanlah pada Istisqo ini seperti hal-nya pada waktu ‘Ied “}. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="2. Pada Rakaat pertama disunnah-kan untuk membaca surat Al-A’la selanjutnya pada Rakaat ke-dua disnunnah-kan membaca surat Al-Ghasiyah. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="3. Setelah Selesai Melaksanakan Sholat Istisqa, lalu diteruskan dengan khutbah 2 kali, sembari memperbanyak bacaan istighfar. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="4. Berdoalah dengan menghadap ke-kiblat dan dengan mengangkat ke-dua tangan setinggi mungkin, berdoalah sambil hati kita bersimpuh dengan sepenuhnya pengharapan dan ketundukan kita kepada Sang Maha Pemberi Hujan Dialah Allah SWT. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="5. Dan Dianjurkan untuk doa Istisqo ini dibacakan oleh orang shalih dan Ahli Bait. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Berikut ini adalah Doa Istisqa Lengkap dengan Artinya :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="اَلْحَمْدُ لِلَّهِ رَبِّ اَلْعَالَمِينَ، اَلرَّحْمَنِ اَلرَّحِيمِ، مَالِكِ يَوْمِ اَلدِّينِ، لَا إِلَهَ إِلَّا اَللَّهُ يَفْعَلُ مَا يُرِيدُ، اَللَّهُمَّ أَنْتَ اَللَّهُ، لَا إِلَهَ إِلَّا أَنْتَ، أَنْتَ اَلْغَنِيُّ وَنَحْنُ اَلْفُقَرَاءُ، أَنْزِلْ عَلَيْنَا الْغَيْثَ، وَاجْعَلْ مَا أَنْزَلْتَ قُوَّةً وَبَلَاغًا إِلَى حِينٍ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="اللَّهُمَّ اسْقِنَا اللَّهُمَّ اسْقِنَا اللَّهُمَّ اسْقِنَا، اللَّهُمَّ اسْقِنا غَيْثاً مُغِيثاً هَنِيئاً مَرِيئاً غَدَقاً مُجَلِّلاً سَحّاً عامّاً طَبَقاً دَائِماً؛ اللَّهُمَّ على الظِّرَابِ وَمَنابِتِ الشَّجَرِ، وَبُطُونِ الأوْدِيَةِ؛ اللَّهُمَّ إنَّا نَسْتَغْفِرُكَ إِنَّكَ كُنْتَ غَفّاراً، فأرْسلِ السَّماءَ عَلَيْنا مِدْرَاراً؛ اللَّهُمَّ اسْقِنا الغَيْثَ وَلا تَجْعَلْنا مِنَ القَانِطِينَ. اللهم إنَّ بِالعِبادِ والبِلادِ والبهائم والخلق من اللأواء والجهد والضنك ما لا نشكوه إلا إليك. اللَّهُمَّ أنْبِتْ لَنا الزَّرْعَ، وَأدِرَّ لَنا الضَّرْعَ، وَاسْقِنا مِنْ بَرَكاتِ السَّماءِ، وأنْبِتْ لَنا مِنْ بَرَكاتِ الأرْضِ؛ اللَّهُمَّ ارْفَعْ عَنَّا الجَهْدَ وَالجُوعَ والعُرْيَ، واكْشِفْ عَنَّا مِنَ البَلاءِ ما لا يَكْشِفُهُ غَيْرُكَ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="اَلَلّهُمَّ اسْقِنَا الغَيْثَ وَانْصُرْنَا عَلَى الأَعْدَاءِ. اَللَّهُمَّ أَنْتَ أَمَرْتَنَا بِدُعَائِكَ وَوَعَدْتَنَا إِجَابَتَكَ، وَقَدْ دَعَوْنَاكَ كَمَا أَمَرْتَنَا فَأَجَبْنَا كَمَا وَعَدْتَنَا، اَللَّهُمَّ امنن علينا بمغفرة ما قارفنا، وإجابتك في سقيانا، وسعة رزقنا."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="{” Segala puji bagi Allah Rabbul ‘alamin yang Maha Pengasih lagi Maha Penyayang, yang merajai hari pembalasan, tidak ada Tuhan selain Allah yang melakukan apa yang Ia kehendaki, ya Allah Engkaulah Allah tidak ada Tuhan selain Engkau, Engkau Mahakaya dan kami orang-orang fakir, turunkanlah pada kami hujan, dan jadikan apa yang Engkau turunkan sebagai kekuatan dan bekal hingga suatu batas yang lama."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ya Allah, turunkan bagi kami hujan 3x, Ya Allah, turunkan bagi kami hujan yang menyuburkan, menyejahterakan, bermanfaat, mengalir dari atas ke bawah merata, dan terus-menerus kebaikannya bagi negeri dan penghuninya. Ya Allah pada pegunungan, Shalallahu ‘Alaihi wa Sallamah ladang dan danau-danau. Ya Allah kami beristighfar kepada-Mu, sesungguhnya Engkau penerima ampun, turunkan kepada hujan dari langit yang terus menerus memberikan kebaikan. Ya Allah turunkanlah hujan dan jangan jadikan kami termasuk orang-orang yang putus asa."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ya Allah negeri dan penduduknya mengalami kesulitan, kesengsaraan, kesempitan dan kami tidak mengadu kecuali kepada-Mu. Ya Allah tumbuhkanlah bagi kami tanaman, suburkanlah susu-sus ternak kami, turunkanlah hujan dari keberkahan langit dan tumbuhkanlah tanaman dari keberkahan bumi. Ya Allah angkatlah dari kami kesusahan, kelaparan, dan terbukanya aurat, singkapkan dari kami musibah dan tidak ada yang dapat menyingkapkannya kecuali Engkau"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Ya Allah turunkanlah hujan dan tolonglah kami atas musuh. Ya Allah Engkau telah memerintahkan kami untuk berdoa, dan berjanji untuk mengabulkan. Dan kami telah berdoa sebagaimana engkau perintahkan, maka kabulkanlah sebagaimana Engkau telah janjikan. Ya Allah berikanlah anugerah ampunan-Mu atas kesalahan kami, dan kabulkan hujan untuk kami dan kelapangan rezeki. “}"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Dan Apabila hujan sudah diturunkan oleh Allah SWT, maka dianjur-kan untuk bersujud syukur dan bertasbih-lah atau dengan membaca doa berikut :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Doa Setelah Turun Hujan"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="اللّهُمَّ اجْعَلهُ صَيِّبَاً هَنِيئاً نافعاً. اللهم حوالينا ولا علينا.ويقولون: مُطِرْنَا بِفَضْلِ اللهِ وَرَحْمَتِهِ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya : {” Ya Allah.. jadikan-lah hujan yang menyejahtera-kan dan dapat bermanfaat. Ya Allah… turunkan-lah (rahmat hujan ini) di sekeliling kami bukan adzab bagi kam “} Dan para jamaah mengucapkan : {” Hujan turun dengan karunia dan rahmat Allah SWT “}."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

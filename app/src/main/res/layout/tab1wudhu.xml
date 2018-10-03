@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserWudhu"
+    android:orientation="vertical"
+    android:background="@drawable/islambck"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/telapaktgn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:text="بِسۡمِ ٱللهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِيمِ " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membaca Bismillahirrahmanirrahim dan dilanjutkan dengan doa dibawah ini :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#f8d44c"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اَللّٰهُمَّ احْفَظْ يَدَيَّ مِنْ مَعَاصِكَ كُلِّهَا"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allohummahfadz Yadayya Min Ma'asyika Kulliha"
+        android:paddingTop="15dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:paddingRight="10dp"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Artinya :
+Ya Allah peliharalah kedua tanganku dari semua perbuatan maksiat pada-Mu."
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+</LinearLayout>

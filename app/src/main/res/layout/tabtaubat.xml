@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserToolbar"
+    android:background="@drawable/bcksunnah">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="70dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sunnahtaubat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="20dp"
+                android:paddingTop="15sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Sholat Sunnah Taubat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Sholat taubat sebagai salah satu bentuk penyempurnaan dalam proses taubat kita, maka empat madzhab fiqih menganjurkan untuk melaksanakan sholat taubat. Sholat taubat adalah bukti keseriusan kita bahwa kita benar-benar ingin bertaubat dan segala dosa kita benar-benar ingin diampuni."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:text="Waktu Pelaksanaan Sholat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Sholat taubat termasuk sholat sunnah yang dikerjakan hanya apabila ada kejadian-kejadian tertentu yang menjadi penyebabnya. Sholat dangan karakteristik seperti ini juga ditemukan pada sholat hajat dan istikhoroh. Sholat dengan karakteristik ini juga secara khusus tidak ada pembatasan waktu pengerjaannya."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:text="Niat Sholat Taubat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="أُصَلِّى سُنَّةَ التَّوْبَةَ رَكْعَتَيْنِ لِلهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:text="Ushalli Sunnatat Taubata Rak’ataini Lillahi Ta’ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Artinya: Saya niat shalat sunnah taubat dua rakaat karena Allah."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:text="Tata Cara Sholat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Sebagaimana yang disebutkan dalam hadist, hendaknya sebelum melaksanakan sholat taubat didahului dengan bersuci dengan baik. Jika ia bertaubat dari keadaan kafir atau non-muslim maka disunnahkan untuk melakukan mandi besar, sedangkan jika untuk bertaubat dari dosa-dosa yang lainnya cukup diawali dengan wudhu."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Sholat taubat sendiri dilaksanakan sebanyak 2 rakaat dengan rukun sebagaimana sholat seperti biasa. Namun jika mau, kita bisa memperpanjang sujud terakhir untuk secara khusus bermunajat dan mengakui berbagai dosa kita serta memohon ampunan dengan segala kerendahan diri dihadapan Allah SWT. Sebagaimana seperti yang disebutkan dalam hadist,
+
+“Yang paling dekat antara seorang hamba dengan Rabbnya adalah ketika ia sujud, maka perbanyaklah do’a ketika itu.”(HR. Muslim)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:text="Do’a dan Dzikir Selepas Sholat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="Sebagai penyempurna dari amalan sholat taubat kita, maka ada baiknya kita memperbanyak membaca istighfar. Meminta ampun dengan istighfar ini ada baiknya pula di sertai dengan dzikir-dzikir menyebut asma-Nya."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:text="Do'a Sholat Taubat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:text="اَللّٰهُمَّ اِنِّى أَسْاَلُكَ تَوْفِيْقَ أَهْلِ الْهُدَى وَاَعْمَالَ اَهْلِ التَّوْبَةِ وَعَزْمَ اَهْلِ الصَّبْرِ وَجِدَّ اَهْلِ الْخَشْيَةِ وَطَلَبَ أَهْلِ الرَّغْبَةِ وَتَعَبُّدَ أَهْلِ الْوَرَعِ وَعِرْفَانَ أَهْلِ الْعِلْمِ حَتَّى اَخَافَكَ . اَللّٰهُمَّ اِنِّى اَسْاَلُكَ مَخَافَةً تَحْجُزُنِى عَنْ مَعَاصِيْكَ حَتَّى اَعْمَلَ بِطَاعَتِكَ عَمَلاً اَسْتَحِقُّ بِهِ رِضَاكَ حَتَّى اُنَاصِحَكَ فِى التَّوْبَةِ خَوْفًا مِنْكَ وَحَتَّى اَخْلِصَ لَكَ النَّصِيْحَةَ حُبًّالَكَ وَحَتَّى أَتَوَكَّلَ عَلَيْكَ فَالأُمُوْرِ كُلِّهَاوَحُسْنَ ظَنٍّ بِكَ. سُبْحَانَ خَالِقِ نُوْرٍ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:text="Artinya: Ya Allah sesungguhnya hamba memohon kepada-Mu Taufiq(pertolongan)nya orang-orang yang mendapatkan petunjuk (hidayah),dan perbuatannya orang-orang yang bertaubat, dan cita-cita orang-orang yang sabar, dan kesungguhan orang-orang yang takut, dan pencariannya orang-orang yang cinta, dan ibadahnya orang-orang yang menjauhkan diri dari dosa (wara’), dan ma’rifatnya orang-orang berilmu sehingga hamba takut kepada-Mu. Ya Allah sesungguhnya hamba memohon kepada-Mu rasa takut yang membentengi hamba dari durhaka kepada-Mu, sehingga hamba menunaikan keta’atan kepada-Mu yang berhak mendapatkan ridho-Mu sehingga hamba tulus kepada-Mu dalam bertaubat karena takut pada-Mu, dan sehingga hamba mengikhlaskan ketulusan untuk-Mu karena cinta kepada-Mu, dan sehingga hamba berserah diri kepada-Mu dalam semua urusan, dan hamba memohon baik sangka kepada-Mu. Maha suci Dzat Yang Menciptakan Cahaya."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

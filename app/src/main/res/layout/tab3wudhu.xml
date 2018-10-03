@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserWudhu"
+    android:orientation="vertical"
+    android:background="@drawable/islambck"
+    android:paddingBottom="15dp"
+    android:paddingTop="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hidung"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#f8d44c"
+        android:textStyle="bold"
+        android:text="Doa ketika menghirup air ke hidung :"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="اَللّٰهُمَّ أَرِحْنِي رَائِحَةَ الجَـنَّةِ وَاَنْتَ عَنِّي رَاضٍ"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:text="Allohumma Arihni Roihatal Jannati wa anta annii rodliin."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Artinya:
+Ya Allah berikan aku penciuman wewangian syurga dan keadaan Engkau terhadap diriku yang selalu meridhoi."/>
+
+
+</LinearLayout>

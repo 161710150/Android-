@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserToolbar"
+    android:background="@drawable/bcksunnah">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="70dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tahajud"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="15sp"
+                android:layout_height="wrap_content"
+                android:textColor="#f8d44c"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Sholat Sunnah Tahajud"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sholat tahajud adalah adalah salat sunnah yang dikerjakan pada malam hari. Tata cara sholat tahajud sama seperti sholat sunnah pada umumnya, tetapi dikerjakan setelah tidur."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Waktu mengerjakan sholat tahajud"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sholat tahajud bisa dikerjakan kapan pun dalam kurun waktu setelah isya' sampai masuknya waktu subuh. Walaupun begitu ada waktu yang paling dianjurkan untuk melaksanakan sholat tahajud, yaitu sepertiga malam terakhir."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Sepertiga malam terakhir berarti lepas tengah malam hingga masuknya waktu subuh. Jika mengerjakan sholat tahajud pada waktu tersebut, insya Allah doanya akan diijabah oleh Allah SWT."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tata cara sholat tahajud lengkap dan benar beserta niat dan bacaannya"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Membaca Niat Sholat Tahajud Berikut :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" اُصَلِّى سُنَّةً التَّهَجُّدِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ ِللهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text=" USHALLII SUNNATAN TAHAJJUDI RAK'ATAINI MUSTAQBILAL QIBLATI LILLAAHI TA'AALAA."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Aku niat shalat sunat tahajud 2 rakaat, menghadap kiblat, karena Allah Ta'ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Setelah membaca niat sholat tahajud, lakukan sholat 2 rakaat dengan 2 kali sujud dan 1 kali salam."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Mengenai bacaan sholat tahajud, sebenarnya tidak ada kewajiban untuk membaca doa tertentu. Namun jika merujuk kebiasaan Rasulullah SAW beliau membaca doa berikut."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="اَللهُمَّ لَكَ الْحَمْدُ اَنْتَ قَيِّمُ السَّمَوَاتِ وَاْلاَرْضِ وَمَنْ فِيْهِنَّ. وَلَكَ الْحَمْدُ اَنْتَ مَالِكُ السَّمَوَاتِ واْلاَرْضِ وَمَنْ فِيْهِنَّ. وَلَكَ الْحَمْدُ اَنْتَ نُوْرُ السَّمَوَاتِ وَاْلاَرْضِ وَمَنْ فِيْهِنَّ. وَلَكَ الْحَمْدُ اَنْتَ الْحَقُّ وَوَعْدُكَ الْحَقُّ وَلِقَاءُكَ حَقٌّ وَقَوْلُكَ حَقٌّ وَالْجَنَّةُ حَقٌّ وَالنَّارُ حَقٌّ وَالنَّبِيُّوْنَ حَقٌّ مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ حَقٌّ وَالسَّاعَةُ حَقٌّ. اَللهُمَّ لَكَ اَسْلَمْتُ وَبِكَ اَمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَاِلَيْكَ اَنَبْتُ وَبِكَ خَاصَمْتُ وَاِلَيْكَ حَاكَمْتُ فَاغْفِرْلِيْ مَاقَدَّمْتُ وَمَا اَخَّرْتُ وَمَا اَسْرَرْتُ وَمَا اَعْلَنْتُ وَمَا اَنْتَ اَعْلَمُ بِهِ مِنِّيْ. اَنْتَ الْمُقَدِّمُ وَاَنْتَ الْمُؤَخِّرُ لاَاِلَهَ اِلاَّ اَنْتَ. وَلاَ حَوْلَ وَلاَ قُوَّةَ اِلاَّ بِاللهِ"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="ALLAAHUMMA LAKAL HAMDU ANTA QAYYIMUS SAMAA WAATI WAL ARDHI WA MAN FIIHINNA. WA LAKAL HAMDU ANTA MALIKUS SAMAA WAATI WAL ARDHI WA MAN FIIHINNA."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="WA LAKAL HAMDU ANTA NUURUS SAMAAWAATI WAL ARDHI WA MAN FIIHINNA. WA LAKAL HAMDU ANTAL HAQQU, WA WA’DUKAL HAQQU, WA LIQAA’UKA HAQQUN, WA QAULUKA HAQQUN, WAL JANNATU HAQQUN, WANNAARU HAQQUN, WANNABIYYUUNA HAQQUN, WA MUHAMMADUN SHALLALLAAHU ‘ALAIHI WASALLAMA HAQQUN WASSAA’ATU HAQQUN."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="ALLAAHUMMA LAKA ASLAMTU, WA BIKA AAMANTU, WA ‘ALAIKA TAWAKKALTU, WA ILAIKA ANABTU, WA BIKA KHAASHAMTU, WA ILAIKA HAAKAMTU, FAGHFIRLII MAA QADDAMTU, WA MAA AKH-KHARTU, WA MAA ASRARTU, WA MAA A’LANTU, WA MAA ANTA A’LAMU BIHIMINNII. ANTAL MUQADDIMU, WA ANTAL MU’AKHKHIRU, LAA ILAAHA ILLAA ANTA, WA LAA HAULA WA LAA QUWWATA ILLAA BILLAAH."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="    Artinya :
+Wahai Allah! Milik-Mu lah segala puji. Engkaulah penegak dan pengurus langit dan bumi serta makhluk yang ada di dalamnya. Milik-Mu lah segala puji. Engkaulah penguasa (raja) langit dan bumi serta makhluk yang ada di dalamnya. Milik-Mu lah segala puji. Engkaulah cahaya langit dan bumi serta makhluk yang ada di dalamnya. Milik-Mu lah segala puji. Engkaulah Yang Hak (benar),janji-Mu lah yang benar, pertemuan dengan-Mu adalah benar, perkataan-Mu benar, surga itu benar (ada), neraka itu benar (ada), para nabi itu benar, Nabi Muhammad saw itu benar, dan hari kiamat itu benar(ada)."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Wahai Allah! Hanya kepada-Mu lah aku berserah diri, hanya kepada-Mu lah aku beriman, hanya kepada-Mu lah aku bertawakkal hanya kepada-Mu lah aku kembali, hanya dehgan-Mu lah kuhadapi musuhku, dan hanya kepada-Mu lah aku berhukum. Oleh karena itu ampunilah segala dosaku, yang telah kulakukan dan yang (mungkin) akan kulakukan, yang kurahasiakan dan yang kulakukan secara terang-terangan, dan dosa-dosa lainnya yang Engkau lebih mengetahuinya daripada aku. Engkaulah Yang Maha Terdahulu dan Engkaulah Yang Maha Terakhir. tak ada Tuhan selain Engkau, dan tak ada daya upaya dan kekuatan kecuali dengan pertolongan Allah."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

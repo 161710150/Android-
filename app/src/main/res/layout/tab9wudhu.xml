@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserWudhu"
+    android:orientation="vertical"
+    android:background="@drawable/islambck"
+    android:paddingBottom="15dp">
+    <ImageView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/lafad"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#f8d44c"
+                android:paddingTop="10dp"
+                android:text=" Doa Setelah Wudhu"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setelah berwudhu, disunnahkan membaca doa setelah wudhu dan menghadap kiblat sambil mengangkat kedua tangan. Berikut ini adalah lafadz doa setelah wudhu beserta pengucapan dan artinya :"
+                android:paddingTop="20dp"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اَشْهَدُ اَنْ لآّاِلَهَ اِلاَّاللهُ وَحْدَهُ لاَشَرِيْكَ لَهُ وَاَشْهَدُ اَنَّ مُحَمَّدًاعَبْدُهُ وَرَسُوْلُهُ. اَللهُمَّ اجْعَلْنِىْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِىْ مِنَ الْمُتَطَهِّرِيْنَ وَاجْعَلْنِىْ مِنْ عِبَا دِكَ الصَّا لِحِيْنَ. "
+        android:paddingTop="15sp"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:text="Asyhadu Alla Ila Haillallaah Wahdahu Laa Syariika Lahu Wa Asyhadu Anna Muhammadan Abduhu Wa Rasuuluhu, Alloohummaj'alni Minattawwaabiina' Waj'alni Minal Mu Tathahhiriina Waj'alni Min Ibadi Kash Shaalihiina"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artinya : Aku bersaksi tiada Tuhan melainkan Allah dan tidak ada yang menyekutukan bagi-Nya. Dan aku bersaksi bahwa Nabi Muhammad adalah utusan-Nya. Ya Allah jadikanlah aku orang yang ahli taubat, dan jadikanlah aku orang yang suci dan jadikanlah aku dari golongan orang-orang yang shaleh."
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

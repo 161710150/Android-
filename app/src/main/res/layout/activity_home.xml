@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pisah">
+
+        <ImageView
+            android:layout_width="168dp"
+            android:layout_height="182dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/lambang"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:id="@+id/wudhuBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Tata Cara Wudhu"
+            android:textColor="#fdfdfd"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/sunnahBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="350dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Daftar Solat Sunnah"
+            android:textColor="#FFF"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/infoBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="230dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Created Info"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/scrim">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="45dp"
+                android:text="SMK ASSALAAM BANDUNG"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:text=" © Robi.Febrianto @2018"
+                android:textColor="#FFF"
+                android:textStyle="italic"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/facebookBtn"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="48dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/logoif" />
+
+                <Button
+                    android:id="@+id/assalaamBtn"
+                    android:layout_width="138dp"
+                    android:layout_height="110dp"
+                    android:layout_alignTop="@+id/facebookBtn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-20dp"
+                    android:background="@drawable/assalaam" />
+
+                <Button
+                    android:id="@+id/instagramBtn"
+                    android:layout_width="73dp"
+                    android:layout_height="71dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/facebookBtn"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ig" />
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

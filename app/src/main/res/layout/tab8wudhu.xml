@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserWudhu"
+    android:paddingBottom="15dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/islambck">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kaki"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#f8d44c"
+        android:paddingTop="20dp"
+        android:text=" Doa ketika Membasuh Kaki Kanan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="10dp"
+        android:text="  اَللّٰهُمَّ ثَبِّتْ قدَمَيَّ عَلَى الصِّرَاطِ يَوْمَ تُثَبِّتُ فِيْهِ اَقْدَامَ عِبَادِكَ الصَالِحِينَ "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="15dp"
+        android:text="Allohumma Tsabbit Qodamayya 'Alaas Syirothi yauma tutsabbitu fiihi Aqdama 'ibaadikas shoolihiin."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="10dp"
+        android:text="Artinya:
+Ya Allah, mantapkan kedua kakiku di atas titian (shirothol mustaqim) pada hari dimana banyak kaki-kaki yang tergelincir."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#f8d44c"
+        android:paddingTop="20dp"
+        android:text=" Doa Ketika Membasuh Kaki Kiri"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="10dp"
+        android:text=" اَللّٰهُمَّ لَاتَزِلُّ قدَمَيَّ عَلَى الصِّرَاطِ فِي النَّارِ يَوْمَ تَزِلُّ فِيْهِ اَقْدَامُ الْمُنَافِقِيْنَ وَالْمُشْرِكِينَ "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="15dp"
+        android:text="Allohumma laa tazillu Qodamayya 'Alaa Syirothi fin naar yauma tazillu fiihi Aqdamul munaafiqiina wal musyrikiina."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:paddingTop="10dp"
+        android:paddingBottom="25dp"
+        android:text="Artinya:
+Ya Allah jangan kau gelincirkan langkah (pendirianku) pada jalan neraka pada hari digelincirkannya langkah (pendirian) orang-orang munafik dan orang-orang musyrik."/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

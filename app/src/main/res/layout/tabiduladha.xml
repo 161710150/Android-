@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeserToolbar"
+    android:background="@drawable/bcksunnah">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:paddingBottom="70dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hariraya"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15sp"
+                android:textColor="#f8d44c"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Panduan Sholat Sunnah Idul Adha dan Idul Fitri"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Syarat dan ketentuan :" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="a. Berjamaah,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="b. Takbir 7kali pada rakaat pertama dan 5kali pada rakaat ke2,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="c. Mengangkat tangan setinggi bahu pada tiap takbir,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="c. Mengangkat tangan setinggi bahu pada tiap takbir,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="d. Setelah takbir yang ke2 sampai takbir yang terakhir baca tasbih,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:paddingTop="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="e. Membaca surat Qaf di rakaat pertama dan surat Al-Ghasiyah pada rakaat kedua,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="f. Imam menyaringkan bacaannya,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="g. Khutbah 2kali setelah shalat sebagmana khutbah jum'at,"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="h. Mandi, berhias, memakai pakaian sebaik-baiknya,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Niat Sholat Idul Adha (sebagai ma'mum) :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" اُصَلِّى سُنُّةً  عِيْدِالْاَضْحَى رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ مَأْمُوْمًا ِللهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="USHOLLI SUNNATA 'IIDHIL ADHAA ROK'ATAINI MUSTAQBILAL QIBLATI MA'MUUMAN LILLAAHI TA'AALA."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Saya niat sholat sunnah idul adha dua raka'at menghadap kiblat sebagai ma'mum karena Allah Ta'ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Niat Sholat Idul Adha (sebagai imam) :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" اُصَلِّى سُنُّةً عِيْدِالْاَضْحَى رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ اِمَامًا ِللهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text=" USHOLLI SUNNATA 'IIDHIL ADHAA ROK'ATAINI MUSTAQBILAL QIBLATI IMAAMAN LILLAAHI TA'AALA"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Saya niat sholat sunnah idul adha dua raka'at menghadap kiblat sebagai imam karena Allah Ta'ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Niat Sholat Idul Fitri(sebagai ma'mum) :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" اُصَلِّى سُنُّةً  عِيْدِ الْفِطْرِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ مَأْمُوْمًا ِللهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="USHOLLI SUNNATA 'IIDHIL FITHRI ROK'ATAINI MUSTAQBILAL QIBLATI MA'MUUMAN LILLAAHI TA'AALA."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Saya niat sholat sunnah idul fitri dua raka'at menghadap kiblat sebagai ma'mum karena Allah Ta'ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Niat Sholat Idul Fitri (sebagai imam) :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" اُصَلِّى سُنُّةً عِيْدِ الْفِطْرِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ اِمَامًا ِللهِ تَعَالَى"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="USHOLLI SUNNATA 'IIDHIL FITHRI ROK'ATAINI MUSTAQBILAL QIBLATI IMAAMAN LILLAAHI TA'AALA."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Saya niat sholat sunnah idul fitri dua raka'at menghadap kiblat sebagai imam karena Allah Ta'ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="#f8d44c"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Tata Cara Sholat :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Jumlah raka’at shalat Idul Fithri dan Idul Adha adalah dua raka’at. Adapun tata caranya adalah sebagai berikut :"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="1. Memulai dengan takbiratul ihrom, sebagaimana shalat-shalat lainnya,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="2. Kemudian bertakbir (takbir zawa-id/tambahan) sebanyak tujuh kali takbir selain takbiratul ihrom- sebelum memulai membaca Al-Fatihah. Boleh mengangkat tangan ketika takbir-takbir tersebut sebagaimana yang dicontohkan oleh Ibnu ‘Umar. Ibnul Qayyim mengatakan, Ibnu ‘Umar yang dikenal sangat meneladani Nabi shallallahu ‘alaihi wa sallam biasa mengangkat tangannya dalam setiap takbir,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="3. Di antara takbir-takbir (takbir zawa-id) yang ada tadi tidak ada bacaan dzikir tertentu. Namun ada sebuah riwayat dari Ibnu Mas’ud, ia mengatakan, “Di antara tiap takbir, hendaklah menyanjung dan memuji Allah.” Syaikhul Islam mengatakan bahwa sebagian salaf di antara tiap takbir membaca bacaan berikut: "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text=" سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إلَهَ إلَّا اللَّهُ وَاَللَّهُ أَكْبَرُ . اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="SUBHANALLAH WAL HAMDULILLAH WA  LAA ILAHA ILLALLAH WALLAHU AKBAR. ALLAHUMMAGHFIRLII WAR HAMNII"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Artinya :
+Maha suci Allah, segala pujian bagi-Nya, tidak ada sesembahan yang benar untuk disembah selain Allah. Ya Allah, ampunilah aku dan rahmatilah aku."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="* Namun ingat sekali lagi, bacaannya tidak dibatasi dengan bacaan ini saja. Boleh juga membaca bacaan lainnya asalkan di dalamnya berisi pujian pada Allah Ta’ala."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="4. Kemudian membaca Al Fatihah, dilanjutkan dengan membaca surat lainnya,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="5. Setelah membaca surat, kemudian melakukan gerakan shalat seperti biasa (ruku, i’tidal, sujud, dst),"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="6. Bertakbir ketika bangkit untuk mengerjakan raka’at kedua,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="7. Kemudian bertakbir (takbir zawa-id/tambahan) sebanyak lima kali takbir -selain takbir bangkit dari sujud- sebelum memulai membaca Al Fatihah,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="8. Kemudian membaca surat Al Fatihah dan surat lainnya sebagaimana yang telah disebutkan di atas,"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="9. Mengerjakan gerakan lainnya hingga salam."/>
+
+       </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
